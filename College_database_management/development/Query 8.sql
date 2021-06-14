@@ -1,0 +1,1 @@
+ select course.course_name, specification.specification_name from specification join course on course.course_id = specification.course where upper(course.course_name) = 'BIT';

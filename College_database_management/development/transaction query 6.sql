@@ -1,0 +1,1 @@
+select course_leader.*, instructor.first_name from course_leader join instructor on instructor.instructor_id = course_leader.instructor;

@@ -1,0 +1,1 @@
+select course.course_name, max(student.marks_obtained) as "Highest Marks", count(student.course) as "No of students" from course join student on student.course = course.course_id group by course.course_name;

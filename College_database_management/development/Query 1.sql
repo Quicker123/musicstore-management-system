@@ -1,0 +1,1 @@
+select student.student_name, address.*, phone.phone_number from student join address on student.address = address.address_id join phone on phone.address = address.address_id;

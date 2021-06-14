@@ -1,0 +1,1 @@
+select student.student_name, specification.specification_name from student join course on student.course = course.course_id join specification on specification.course = course.course_id where lower(specification.specification_name) = 'networking';

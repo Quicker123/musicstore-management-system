@@ -1,0 +1,1 @@
+select first_name, last_name, salary from instructor where lower(first_name) like '%s%' and salary > 50000;

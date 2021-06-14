@@ -1,0 +1,1 @@
+ select module.module_head, instructor.first_name, phone.phone_number from module join instructor on module.module_head = instructor.instructor_id join phone on phone.address = instructor.address  group by module.module_head, instructor.first_name, phone.phone_number;

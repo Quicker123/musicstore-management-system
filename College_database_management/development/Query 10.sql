@@ -1,0 +1,1 @@
+select instructor.first_name, address.* from instructor join address on address.address_id = instructor.address where lower(instructor.first_name) like '%a';

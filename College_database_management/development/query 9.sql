@@ -1,0 +1,1 @@
+select module.module_name, class.class_name from module join class on module.class = class.class_id group by module.module_name, class.class_name;
